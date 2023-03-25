@@ -1,0 +1,24 @@
+.app {
+    width: 90%;
+    max-width: 700px; 
+    height: auto;
+    position: relative;
+    margin: 3rem auto; 
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    gap: 1.2rem; 
+}
+
+.app .title {
+    width: 100%; 
+}
+
+.closeX {
+    position: absolute;
+    right: 1.5rem; 
+    top: 1rem; 
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
